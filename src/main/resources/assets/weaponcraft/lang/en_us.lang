@@ -1,0 +1,13 @@
+item.weaponcraft.chiseledStone.name=Chiseled Stone
+item.weaponcraft.cuIngot.name=Copper Ingot
+item.weaponcraft.niIngot.name=Nickel Ingot
+item.weaponcraft.znIngot.name=Tin Ingot
+item.weaponcraft.snIngot.name=Zinc Ingot
+item.weaponcraft.stoneKnife.name=Stone Knife
+
+tile.weaponcraft.cuOre.name=Copper Ore
+tile.weaponcraft.snOre.name=Zinc Ore
+tile.weaponcraft.znOre.name=Tin Ore
+tile.weaponcraft.niOre.name=Nickel Ore
+
+itemGroup.WeaponCraft=Weapon Craft

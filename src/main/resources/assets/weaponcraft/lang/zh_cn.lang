@@ -1,0 +1,13 @@
+item.weaponcraft.chiseledStone.name=雕凿石块
+item.weaponcraft.cuIngot.name=铜锭
+item.weaponcraft.niIngot.name=镍锭
+item.weaponcraft.znIngot.name=锌锭
+item.weaponcraft.snIngot.name=锡锭
+item.weaponcraft.stoneKnife.name=石刀
+
+tile.weaponcraft.cuOre.name=铜矿石
+tile.weaponcraft.snOre.name=锡矿石
+tile.weaponcraft.znOre.name=锌矿石
+tile.weaponcraft.niOre.name=镍矿石
+
+itemGroup.WeaponCraft=武器工艺

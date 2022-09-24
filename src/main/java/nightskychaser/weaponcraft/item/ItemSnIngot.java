@@ -8,8 +8,8 @@ public class ItemSnIngot extends Item
 {
     public ItemSnIngot()
     {
-        this.setUnlocalizedName(WeaponCraft.MODID + ".snIngot");
+        this.func_77655_b(WeaponCraft.MODID + ".snIngot");
         this.setRegistryName("sn_ingot");
-        this.setCreativeTab(TabWeaponCraft.TAB_WEAPON_CRAFT);
+        this.func_77637_a(TabWeaponCraft.TAB_WEAPON_CRAFT);
     }
 }

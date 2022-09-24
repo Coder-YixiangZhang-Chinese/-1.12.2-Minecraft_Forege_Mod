@@ -8,8 +8,8 @@ public class ItemZnIngot extends Item
 {
     public ItemZnIngot()
     {
-        this.setUnlocalizedName(WeaponCraft.MODID + ".znIngot");
+        this.func_77655_b(WeaponCraft.MODID + ".znIngot");
         this.setRegistryName("zn_ingot");
-        this.setCreativeTab(TabWeaponCraft.TAB_WEAPON_CRAFT);
+        this.func_77637_a(TabWeaponCraft.TAB_WEAPON_CRAFT);
     }
 }

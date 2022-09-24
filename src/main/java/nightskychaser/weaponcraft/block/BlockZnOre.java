@@ -9,11 +9,11 @@ public class BlockZnOre extends Block
 {
     public BlockZnOre()
     {
-        super(Material.ROCK);
-        this.setUnlocalizedName(WeaponCraft.MODID + ".znOre");
-        this.setCreativeTab(TabWeaponCraft.TAB_WEAPON_CRAFT);
+        super(Material.field_151576_e);
+        this.func_149663_c(WeaponCraft.MODID + ".znOre");
+        this.func_149647_a(TabWeaponCraft.TAB_WEAPON_CRAFT);
         this.setRegistryName("zn_ore");
         this.setHarvestLevel("pickaxe", 2);
-        this.setHardness(3.0F);
+        this.func_149711_c(3.0F);
     }
 }

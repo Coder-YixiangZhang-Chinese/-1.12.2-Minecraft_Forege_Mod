@@ -8,8 +8,8 @@ public class ItemCuIngot extends Item
 {
     public ItemCuIngot()
     {
-        this.setUnlocalizedName(WeaponCraft.MODID + ".cuIngot");
+        this.func_77655_b(WeaponCraft.MODID + ".cuIngot");
         this.setRegistryName("cu_ingot");
-        this.setCreativeTab(TabWeaponCraft.TAB_WEAPON_CRAFT);
+        this.func_77637_a(TabWeaponCraft.TAB_WEAPON_CRAFT);
     }
 }

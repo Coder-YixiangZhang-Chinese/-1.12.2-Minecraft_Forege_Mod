@@ -30,7 +30,7 @@ public class WeaponCraft
     {
         // some example code
         FurnaceRecipeRegistryHandler.register();
-        logger.info("DIRT BLOCK >> {}", Blocks.DIRT.getUnlocalizedName());
+        logger.info("DIRT BLOCK >> {}", Blocks.field_150346_d.func_149739_a());
     }
 
     @EventHandler

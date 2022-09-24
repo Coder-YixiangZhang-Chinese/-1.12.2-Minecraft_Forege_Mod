@@ -8,8 +8,8 @@ public class ItemChiseledStone extends Item
 {
     public ItemChiseledStone()
     {
-        this.setUnlocalizedName(WeaponCraft.MODID + ".chiseledStone");
-        this.setCreativeTab(TabWeaponCraft.TAB_WEAPON_CRAFT);
+        this.func_77655_b(WeaponCraft.MODID + ".chiseledStone");
+        this.func_77637_a(TabWeaponCraft.TAB_WEAPON_CRAFT);
         this.setRegistryName("chiseled_stone");
     }
 }

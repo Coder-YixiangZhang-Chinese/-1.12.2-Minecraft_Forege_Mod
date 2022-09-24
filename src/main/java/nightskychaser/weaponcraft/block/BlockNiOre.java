@@ -9,11 +9,11 @@ public class BlockNiOre extends Block
 {
     public BlockNiOre()
     {
-        super(Material.ROCK);
-        this.setUnlocalizedName(WeaponCraft.MODID + ".niOre");
-        this.setCreativeTab(TabWeaponCraft.TAB_WEAPON_CRAFT);
+        super(Material.field_151576_e);
+        this.func_149663_c(WeaponCraft.MODID + ".niOre");
+        this.func_149647_a(TabWeaponCraft.TAB_WEAPON_CRAFT);
         this.setRegistryName("ni_ore");
         this.setHarvestLevel("pickaxe", 2);
-        this.setHardness(3.0F);
+        this.func_149711_c(3.0F);
     }
 }

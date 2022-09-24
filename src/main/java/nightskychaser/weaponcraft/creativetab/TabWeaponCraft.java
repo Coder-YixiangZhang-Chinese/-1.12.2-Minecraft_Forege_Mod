@@ -14,7 +14,7 @@ public class TabWeaponCraft extends CreativeTabs
     }
 
     @Override
-    public ItemStack getTabIconItem()
+    public ItemStack func_78016_d()
     {
         return new ItemStack(ItemRegistryHandler.ITEM_CHISELED_STONE);
     }

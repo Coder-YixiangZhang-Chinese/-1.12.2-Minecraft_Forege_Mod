@@ -3,6 +3,7 @@ package nightskychaser.weaponcraft.item;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.util.EnumHelper;
@@ -34,7 +35,7 @@ public class ItemRegistryHandler {
     public static final ItemBlock ITEM_BLOCK_NI_ORE = withRegistryName(new ItemBlock(BlockRegistryHandler.BLOCK_NI_ORE));
 
     private static ItemBlock withRegistryName(ItemBlock item) {
-        item.setRegistryName(item.getBlock().getRegistryName());
+        item.setRegistryName(item.func_179223_d().getRegistryName());
         return item;
     }
 
@@ -77,6 +78,6 @@ public class ItemRegistryHandler {
         registerModel(ITEM_NI_INGOT);
         registerModel(ITEM_SN_INGOT);
         registerModel(ITEM_ZN_INGOT);
-        registerModel(ITEM_STONE_KNIFE);
+        ModelLoader.setCustomModelResourceLocation(ITEM_STONE_KNIFE, 0, new ModelResourceLocation(new ResourceLocation("weaponcraft", "stone_knife"), "inventory"));
     }
 }

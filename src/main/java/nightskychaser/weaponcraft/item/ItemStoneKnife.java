@@ -9,8 +9,8 @@ public class ItemStoneKnife extends ItemSword
     public ItemStoneKnife()
     {
         super(ItemRegistryHandler.CHISELED_STONE_KNIFE_TOOL_MATERIAL);
-        this.setUnlocalizedName(WeaponCraft.MODID + ".stoneKnife");
+        this.func_77655_b(WeaponCraft.MODID + ".stoneKnife");
         this.setRegistryName("stone_knife");
-        this.setCreativeTab(TabWeaponCraft.TAB_WEAPON_CRAFT);
+        this.func_77637_a(TabWeaponCraft.TAB_WEAPON_CRAFT);
     }
 }
